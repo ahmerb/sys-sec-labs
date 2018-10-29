@@ -96,6 +96,8 @@ Vagrant.configure("2") do |config|
       apt-get install -y netwox telnet tshark
       apt-get autoremove -y
     SHELL
-
+    # Add labs as sync'd folder
+    config.vm.synced_folder "../lab0", "/home/vagrant/lab0", disabled: false
+    config.vm.synced_folder "../lab1", "/home/vagrant/lab1", disabled: false
  end
 end
