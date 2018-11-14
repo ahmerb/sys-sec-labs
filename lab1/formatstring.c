@@ -1,4 +1,4 @@
-/* vul_prog.c */
+/* ul_prog.c */
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -24,8 +24,8 @@ int main(int argc, char *argv[])
     printf("secret[0]'s address is 0x%8x (on heap)\n", (unsigned int)&secret[0]);
     printf("secret[1]'s address is 0x%8x (on heap)\n", (unsigned int)&secret[1]);
     
-    printf("Please enter a decimal integer\n");
-    scanf("%d", &int_input);  /* getting an input from user */
+    // printf("Please enter a decimal integer\n");
+    // scanf("%d", &int_input);  /* getting an input from user */
     printf("Please enter a string\n");
     scanf("%s", user_input); /* getting a string from user */
     
